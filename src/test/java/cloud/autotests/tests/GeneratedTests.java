@@ -5,8 +5,7 @@ import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.title;
+import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -21,20 +20,17 @@ public class GeneratedTests extends TestBase {
         });
 
         step("Ввести логин 'Alex'", () -> {
-            step("// todo: just add selenium action");
+            $("#login_field").setValue("Alex").pressEnter();
         });
 
         step("Ввести пароль '12%#5f'", () -> {
-            step("// todo: just add selenium action");
+            $("#password").setValue("12%#5f").pressEnter();
         });
 
         step("Отправить форму", () -> {
-            step("// todo: just add selenium action");
+            $(".js-sign-in-button").click();
         });
 
-        step("Проверить успешную авторизацию под 'Alex'", () -> {
-            step("// todo: just add selenium action");
-        });
     }
 
     @Test
