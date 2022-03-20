@@ -20,18 +20,23 @@ public class GeneratedTests extends TestBase {
 
         step("Открываем сайт onlcmarket", () -> {
             open("https://onlcmarket.ru/");
+            Thread.sleep(9000);
         });
 
         step("Вводим в поиске значение и нажимаем Enter", () -> {
+
             $("#HomeOffersForm_query").setValue("Сетка ЦПВС").pressEnter();
+            Thread.sleep(9000);
         });
 
         step("Проверяем отображение", () -> {
             $(".card___StyledCol4-sc-1ka6810-7").shouldHave(text("Сетка ЦПВС"));
+            Thread.sleep(9000);
         });
 
         step("Проверяем отображение страницы поиска", () -> {
             $(".sub-top___StyledCol-sc-es4zgy-1").shouldBe(visible).shouldHave(text("Найдено: 1"));
+            Thread.sleep(9000);
         });
     }
 
