@@ -16,7 +16,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Успешная авторизация")
     void generatedTest() {
         step("Открыть 'https://github.com/login'", () -> {
-            step("// todo: just add selenium action");
+            open("https://github.com/login");
         });
 
         step("Ввести логин 'Alex'", () -> {
