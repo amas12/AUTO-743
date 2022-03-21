@@ -1,4 +1,4 @@
-# Проект по автоматизации тестирования сайта  GitHuПроект по автоматизации тестирования сайта GitHub
+# Проект по автоматизации тестирования сайта GitHub
 <a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
 
 # Jenkins job
