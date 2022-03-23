@@ -16,7 +16,7 @@
 >
 > ➠ [Отчет о результатах тестирования в Allure Report](#skier-главная-страница-allure-отчета)
 >
-> ➠ [Уведомления в Telegram с использованием бота](#:telephone:-уведомления-в-telegram-с-использованием-бота)
+> ➠ [Уведомления в Telegram с использованием бота](#telephone-уведомления-в-telegram-с-использованием-бота)
 >
 
 
@@ -114,11 +114,10 @@ test
 <img title="Allure Overview Dashboard" src="images/screens/Allure Report -graph.jpg">
 </p>
 
-
 ## :telephone: Уведомления в Telegram с использованием бота
 
-> После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне.
 
+> После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне.
 <p align="center">
 <img title="Telegram Notifications" src="images/screens/Telegram.jpg">
 </p>
