@@ -17,6 +17,8 @@
 > ➠ [Отчет о результатах тестирования в Allure Report](#skier-главная-страница-allure-отчета)
 >
 > ➠ [Уведомления в Telegram с использованием бота](#telephone-уведомления-в-telegram-с-использованием-бота)
+> 
+> ➠ [Пример запуска теста в Selenoid](#clapper-пример-запуска-теста-в-selenoid)
 >
 
 
@@ -122,6 +124,13 @@ test
 <img title="Telegram Notifications" src="images/screens/Telegram.jpg">
 </p>
 
+
+## :clapper: Пример запуска теста в Selenoid
+
+> К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
+<p align="center">
+  <img title="Selenoid Video" src="images/gif/69qqan.gif">
+</p>
 
 
 
