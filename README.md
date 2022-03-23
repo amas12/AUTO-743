@@ -16,9 +16,9 @@
 >
 > ➠ [Отчет о результатах тестирования в Allure Report](#skier-главная-страница-allure-отчета)
 >
-> ➠ [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
+> ➠ [Уведомления в Telegram с использованием бота](#telephone-уведомления-в-telegram-с-использованием-бота)
 >
-> ➠ [Пример запуска теста в Selenoid](#-пример-запуска-теста-в-selenoid
+
 
 
 
@@ -114,20 +114,14 @@ test
 <img title="Allure Overview Dashboard" src="images/screens/Allure Report -graph.jpg">
 </p>
 
+## :telephone: Уведомления в Telegram с использованием бота
 
-## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
 > После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне.
-
 <p align="center">
 <img title="Telegram Notifications" src="images/screens/Telegram.jpg">
 </p>
 
-## <img width="4%" title="Selenoid" src="images/logo/Selenoid.svg"> Пример запуска теста в Selenoid
 
-> К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
-<p align="center">
-  <img title="Selenoid Video" src="images/gif/7ff5aa94166727e.mp4">
-</p>
 
 
